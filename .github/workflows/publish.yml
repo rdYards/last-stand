@@ -23,6 +23,6 @@ jobs:
         env:
           REPO: self
           BRANCH: gh-pages    # Target branch for build output
-          FOLDER: gh-pages    # Output folder from your build
+          FOLDER: build    # Output folder from your build
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MESSAGE: "Build: ({sha}) {msg}"
